@@ -1,0 +1,22 @@
+.container { 
+    display: flex;
+    position: relative;
+    width: 900px;
+    height: 900px;
+    flex-direction: row;
+    background-color: burlywood;
+    border: 2px solid black;
+    left: 30%;
+    top: 30%;
+    align-items: center;
+}
+
+.container div { 
+    background-color: gainsboro;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+    border: 2px solid black;
+}

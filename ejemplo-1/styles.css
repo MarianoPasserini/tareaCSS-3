@@ -1,0 +1,33 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 900px;
+    height: 900px;
+    background: white;
+    border: solid black 3px;
+    left: 30%;
+    top: 30%;   
+    align-items: flex-end;
+}
+
+.container div { 
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 300px;
+}
+
+.verde { 
+    background: green;
+}
+
+.azul { 
+    background: blue;
+}
+
+.rojo { 
+    background: red;
+}
