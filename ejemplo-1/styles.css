@@ -1,13 +1,11 @@
 .container { 
     display: flex;
     flex-direction: column;
-    position: relative;
+    margin: auto;
     width: 900px;
     height: 900px;
     background: white;
-    border: solid black 3px;
-    left: 30%;
-    top: 30%;   
+    border: solid black 3px; 
     align-items: flex-end;
 }
 
